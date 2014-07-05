@@ -23,7 +23,12 @@
 		<h1><a href="<?php the_permalink(); ?>" rel="bookmark" ><?php the_title(); ?></a></h1>
 	<?php endif; ?>
 
-
+	<p class="entry-meta">
+		<?php 
+			// Display the meta information
+			alpha_post_meta();
+		 ?>
+	</p>
 	</header><!-- end entry-header -->
 </article><!-- end article -->
 
