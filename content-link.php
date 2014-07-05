@@ -1,8 +1,8 @@
-<?php
+<?php 
 /**
- * content.php
+ * content-link.php
  *
- * The default template for displaying post with the Link post format.
+ * The default template for displaying posts with the Link post format.
  */
 ?>
 

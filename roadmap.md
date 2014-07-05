@@ -1,12 +1,12 @@
-# A list of file that needs to be written
+# A list of files that need to be written
 
 * functions.php
 * index.php
 * header.php
 * footer.php
-* single.php
 * page.php
-* content php (with all content types)
+* single.php
+* content.php (with all content types)
 * author archives
 * date archives
 * category and tag archives

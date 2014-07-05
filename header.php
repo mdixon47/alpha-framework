@@ -34,7 +34,7 @@
 	<link rel="shortcut icon" href="<?php echo $favicon; ?>">
 	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php echo $touch_icon; ?>">
 
-	 <?php wp_head(); ?>
+	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 
