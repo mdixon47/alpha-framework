@@ -4,6 +4,7 @@
 * index.php
 * header.php
 * footer.php
+* single.php
 * page.php
 * content php (with all content types)
 * author archives
