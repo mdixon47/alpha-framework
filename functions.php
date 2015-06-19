@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * functions.php
  *
- * The theme's functions and definitions.
+ * The theme's functions and definitions. This is great.
  */
 
 /**
@@ -150,14 +150,14 @@ if ( ! function_exists( 'alpha_post_meta' ) ) {
 if ( ! function_exists( 'alpha_paging_nav' ) ) {
 	function alpha_paging_nav() { ?>
 		<ul>
-			<?php 
+			<?php
 				if ( get_previous_posts_link() ) : ?>
 				<li class="next">
 					<?php previous_posts_link( __( 'Newer Posts &rarr;', 'alpha' ) ); ?>
 				</li>
 				<?php endif;
 			 ?>
-			<?php 
+			<?php
 				if ( get_next_posts_link() ) : ?>
 				<li class="previous">
 					<?php next_posts_link( __( '&larr; Older Posts', 'alpha' ) ); ?>
@@ -232,7 +232,7 @@ if ( ! function_exists( 'alpha_load_wp_head' ) ) {
 
 		$logo_size = getimagesize( $logo );
 		?>
-		
+
 		<!-- Logo CSS -->
 		<style type="text/css">
 			.site-logo a {
